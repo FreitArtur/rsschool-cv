@@ -26,6 +26,8 @@ Hello everyone, my name is Artur, I am 20 years old. I lived in Belarus until I 
 * *css*
 
 ## Langagues 
-* Russian (C2)
-* English (B1)
-* Polish (C1)
+* Russian (C2).
+* English (B1).
+* Polish (C1).
+
+Rolling Scopes
