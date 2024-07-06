@@ -434,10 +434,6 @@ a {
     box-shadow: 0 0 0 3px #FFF;
 }
 
-.rsschool_icon svg{
-    width: 35px;
-    height: 35px;
-}
 
 .year_{
     margin-left: 494px;
@@ -449,6 +445,7 @@ a {
 .rsschool_icon {
     width: 92px;
     height: 44px;
-    margin-left: 329px;
+    position: absolute;
     margin-top: 2px;
+    right: 590px;
 }
