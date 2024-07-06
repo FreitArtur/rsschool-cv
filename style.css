@@ -12,6 +12,7 @@ body {
     font-family: Lato, sans-serif;
     background-color: white;
     border-color: #611e3e;
+    max-height: 100px;
 }
 
 .nav-list {
@@ -445,7 +446,7 @@ a {
 .rsschool_icon {
     width: 92px;
     height: 44px;
-    position: absolute;
+    position: relative;
     margin-top: 2px;
-    right: 591px;
+    right: -330px;
 }
