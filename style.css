@@ -1,0 +1,452 @@
+body {
+    background-color: pink;
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.block-nav {
+    border: solid;
+    border-radius: 50px;
+    margin: 50px auto;
+    font-family: Lato, sans-serif;
+    background-color: white;
+    border-color: #611e3e;
+    max-height: 100px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    margin-right: 45px;
+    color: black;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    transition: all, .3s;
+}
+
+.list:hover{
+background-color: #611e3e;
+color: white;
+border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+#wrapper {
+    display: flex;
+    
+    max-width: 1024px;
+    margin: -1px auto;
+    background-color: white;
+    
+    box-shadow: 10px 5px 5px #b78888
+}
+
+.main_info {
+    width: 750px;
+}
+
+.Name_Surname_Status {
+    margin: 85px 0px 0px 85px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.surname {
+    font-size: 48px;
+    color: #611e3e;
+    margin-top: -12px;
+    font-family: Lato, sans-serif;
+}
+
+.status {
+    font-size: 32px;
+    margin-top: -38px;
+    font-family: Lato, sans-serif;
+}
+
+.about_main {
+    margin: 25px 0px 0px 15px;
+    font-size: 28px;
+    color: #611e3e;
+    font-family: Lato, sans-serif;
+}
+
+.about_more_info {
+    max-width: 96%;
+    margin: 25px 0px 0px 15px;
+    font-family: Lato, sans-serif;
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+#Expierience {
+    margin: 25px 0px 0px 15px;
+    font-size: 28px;
+    color: #611e3e;
+    font-family: Lato, sans-serif;
+}
+
+.expierience_name_date_line{
+    width: 1px;
+    height: 59px;
+    background-color: grey;
+    margin-right: 16px;
+    margin-left: 1px;
+}
+
+.expierience_name_date_line_2{
+    width: 1px;
+    height: 59px;
+    background-color: grey;
+    margin-right: 15px;
+    margin-left: -3px;
+}
+
+.expierience_name_date_line_3{
+    width: 1px;
+    height: 59px;
+    background-color: grey;
+    margin-right: 15px;
+    margin-left: 6px;
+}
+.expierience_name_date_line_4{
+    width: 1px;
+    height: 96px;
+    background-color: grey;
+    margin-right: 15px;
+    margin-left: 6px;
+}
+.expierience_name_date_line_5{
+    width: 1px;
+    height: 61px;
+    background-color: grey;
+    margin-right: 15px;
+    margin-left: -2px;
+}
+.Expierience_more_info {
+    margin: 25px 0px 0px 15px;
+    max-width: 100%;
+    font-family: Lato, sans-serif;
+}
+.first_expierence {
+    display: flex;
+}
+.first_expierience_name_date{
+    max-width: 94px;
+}
+.first_expierience_date {
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+.second_expierence {
+    display: flex;
+    margin-top: 30px;
+}
+.second_expierience_name_date{
+    max-width: 94px;
+}
+.second_expierience_date {
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+.third_expierence {
+    display: flex;
+    margin-top: 30px;
+}
+.third_expierience_name_date{
+    max-width: 94px;
+}
+.third_expierience_date {
+    margin-top: 5px;
+    opacity: 0.7;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#Education {
+    color: #611e3e;
+    margin: 25px 0px 0px 15px;
+    font-size: 28px;
+    font-family: Lato, sans-serif;
+}
+
+.education_more_info {
+    margin: 25px 0px 0px 15px;
+    font-family: Lato, sans-serif;
+}
+
+.first_education {
+    display: flex;
+    max-width: 96%;
+}
+
+
+
+.first_education_date {
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+.second_education {
+    display: flex;
+    max-width: 96%;
+    margin-top: 30px;
+}
+
+.second_education_name_date{
+    max-width: 94px;
+}
+
+.second_education_date {
+    margin-top: 5px;
+    opacity: 0.7;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+.main_photo {
+    border: solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 45px;
+    margin-top: 50px;
+    margin: 50px 12px 0px 36px;
+    border-color: white;
+}
+
+.more_info {
+    background-color: #611e3e;
+    width: 346px;
+}
+
+#contact {
+    margin: 35px 0px 0px 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.contact_list_inner {
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+    font-family: Lato, sans-serif;
+}
+
+#personal_info {
+    margin: 35px 0px 0px 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.personal_info_more {
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    font-family: Lato, sans-serif;
+}
+
+.personal_info_list {
+    list-style-type: none;
+}
+
+.personal_info_inner {
+    margin-bottom: 10px;
+
+}
+
+.personal_info_1 {
+    color: white;
+    margin-left: -4px;
+}
+
+.personal_info_2 {
+    margin-left: -15px;
+    color: white;
+}
+
+.personal_info_3 {
+    margin-left: -15px;
+    color: white;
+}
+
+#SKILLS {
+    margin: 35px 0px 0px 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.personal_info_inner_1 {
+    height: 6px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+    font-family: Lato, sans-serif;
+}
+
+.personal_info_inner_2 {
+    height: 6px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+
+.personal_info_inner_3 {
+    height: 6px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+
+.personal_info_inner_4 {
+    height: 6px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+
+.personal_info_inner_5 {
+    height: 6px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+
+.SOFTWARE {
+    margin: 35px 0px 0px 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.personal_info_inner_1_1 {
+    height: 6px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+.personal_info_inner_2_2 {
+    height: 6px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+.personal_info_inner_3_3 {
+    height: 6px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+#HOBBIES {
+    margin: 35px 0px 0px 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+}
+
+.svgblock {
+    display: flex;
+    margin-top: 23px;
+}
+
+.svgblock svg {
+    max-width: 45px;
+    max-height: 45px;
+    margin: 7px 31px -23px;
+}
+
+.blocks_name_1_name {
+    display: flex;
+    font-family: Lato, sans-serif;
+}
+
+.blocks_name_1_1 {
+    color: white;
+    margin: 35px 14px 0px 29px;
+}
+
+.blocks_name_1_2 {
+    color: white;
+    margin: 35px 10px 0px 33px;
+}
+
+.blocks_name_1_3 {
+    color: white;
+    margin: 35px 10px 0px 49px;
+}
+
+.blocks_name_2_1 {
+    color: white;
+    margin: 35px 14px 0px 23px;
+}
+
+.blocks_name_2_2 {
+    color: white;
+    margin: 35px 10px 0px 23px;
+}
+
+.blocks_name_2_3 {
+    color: white;
+    margin: 35px 10px 0px 24px;
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+.footer_block{
+    display: flex;
+    background-color: #611e3e;
+    box-shadow:  10px 5px 5px #b78888;
+    
+}
+
+.github_icon svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 6px;
+    border-radius: 50%;
+    transition: all, .3s;
+}
+
+.github_icon svg:hover{
+    box-shadow: 0 0 0 3px #FFF;
+}
+
+
+.year_{
+    margin-left: 494px;
+    color: white;
+    margin-top: 14px;
+    font-family: Lato, sans-serif;
+}
+
+.rsschool_icon {
+    width: 92px;
+    height: 44px;
+    position: relative;
+    margin-top: 2px;
+    right: -330px; 
+}
